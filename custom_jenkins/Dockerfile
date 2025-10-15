@@ -32,6 +32,3 @@ RUN usermod -aG docker jenkins
 
 # Switch back to the jenkins user
 USER jenkins
-
-
-# checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/swasti-jain19/Hybrid_Anime_Recommender_System.git']])
